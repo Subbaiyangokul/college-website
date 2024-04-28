@@ -1,0 +1,46 @@
+.frontpage {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../assets/ucen3.jpg');
+    object-fit: cover;
+    position: relative;
+    color: rgb(13, 13, 244);
+    z-index: -5;
+}
+
+.college {
+    text-align: center;
+    padding: 2rem;
+}
+
+.heading {
+    font-size: 5rem;
+}
+
+.paragraph {
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: navy;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin: auto;
+    background-color:navy;
+    border: none;
+    outline: 0;
+    border-radius: 20px;
+    padding: 10px 20px;  /*left and right */
+    cursor: pointer;
+    color: white;
+}
+
+
+    
+
+
+

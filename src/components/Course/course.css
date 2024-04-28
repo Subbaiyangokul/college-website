@@ -1,0 +1,43 @@
+.courses {
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 500px;
+    object-fit: cover;
+}    
+
+.course {
+    position: relative;
+    flex-basis: 30%;
+}
+
+.courseheading {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(128, 65, 239, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    cursor: pointer;
+    padding-top: 70%;
+    transition: 5ms;
+    opacity: 0;
+} 
+
+.course:hover .courseheading {
+    opacity: 1;
+    padding-top: 0;
+}
